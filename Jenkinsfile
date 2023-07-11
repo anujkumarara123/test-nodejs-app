@@ -7,7 +7,7 @@ pipeline {
      stage('Install Dependencies') { 
         steps { 
            //sh 'npm install' 
-          sh 'echo "my first pipeline"'
+          echo "my first pipeline"
         }
      }
      
